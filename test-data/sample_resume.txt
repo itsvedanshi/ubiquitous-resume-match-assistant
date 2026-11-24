@@ -1,0 +1,1 @@
+AI student with Python, SQL and machine learning skills. Built a classification project in Python and completed a data analysis project using pandas. Familiar with NLP and FastAPI.

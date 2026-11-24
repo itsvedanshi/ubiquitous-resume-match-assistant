@@ -1,0 +1,10 @@
+flowchart TD
+ A[User enters anonymised resume] --> C[Input validation]
+ B[User enters job description] --> C
+ C -->|Valid| D[Final prompt template P1]
+ C -->|Invalid| E[Insufficient-input response]
+ D --> F[LLM provider selected by operator]
+ F --> G[Structured JSON response]
+ G --> H[Validate score and evidence]
+ H --> I[Show score, gaps, strengths and next steps]
+ I --> J[Download JSON]

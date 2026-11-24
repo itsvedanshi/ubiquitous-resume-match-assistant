@@ -1,0 +1,13 @@
+Test ID,Input summary,Type,Expected output,Actual output / status
+T01,"Graduate with Python, SQL, ML projects; AI/ML JD",Normal,Score > 0; matched skills include Python/SQL/ML where present,Pending live prototype execution
+T02,Data analyst resume with Excel and SQL; analyst JD,Normal,Identify Excel and SQL as matched when explicitly present,Pending live prototype execution
+T03,Frontend resume with React and JavaScript; frontend JD,Normal,Identify React/JavaScript if detected by current skill list,Pending live prototype execution
+T04,Resume includes relevant internship and project bullets,Normal,Experience/projects category explains evidence used,Pending live prototype execution
+T05,Resume includes certification relevant to cloud role,Normal,Certification considered only if explicitly stated; prototype may list as text evidence,Pending live prototype execution
+T06,Resume has skills but no projects/experience,Edge,Do not invent experience; explain low/limited evidence,Pending live prototype execution
+T07,Resume is 2 lines / under 30 characters,Edge,Insufficient input; score 0,Pending live prototype execution
+T08,Job description is blank / under 30 characters,Invalid,Insufficient input; score 0 and request complete JD,Pending live prototype execution
+T09,Resume is unrelated to target job,Edge,Low indicative overlap and explicit gaps; no invented skills,Pending live prototype execution
+T10,Resume contains personal contact details,Edge,Use anonymised test copy; do not expose or store sensitive personal data,Pending privacy review
+T11,"JD includes preferred skills only, no required label",Edge,State limitations of simplistic term extraction; manual review needed,Pending live prototype execution
+T12,Resume contains claims like 'expert in everything' without evidence,Invalid,Do not treat vague claims as demonstrated project evidence,Pending live prototype execution

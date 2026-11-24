@@ -1,0 +1,1 @@
+We seek an AI/ML intern with Python, machine learning, SQL, NLP and FastAPI. Candidates should build ML projects, analyse data and communicate findings. Docker is preferred.

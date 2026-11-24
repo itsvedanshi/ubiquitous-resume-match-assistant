@@ -1,0 +1,9 @@
+flowchart LR
+ U[Student / evaluator] --> UI[Streamlit prototype]
+ UI --> V[Input validation]
+ V --> P[Prompt template versions]
+ P --> L[LLM provider: ChatGPT / Gemini / Claude]
+ L --> O[Structured JSON output]
+ O --> Q[Output validation and review]
+ Q --> R[Feedback dashboard]
+ R --> X[Downloadable result]
