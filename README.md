@@ -1,8 +1,12 @@
 # AI Resume–Job Match Assistant
 
 **Team:** Ubiquitous  
-**Member currently listed:** Vedanshi Mishra — S24CSEU0174  
-**Team ID:** [EDIT: Team ID from Milestone 1]
+**Member currently listed:** Vedanshi Mishra — S24CSEU0174 
+                             Manisha - S24CSEU0223
+                             Tanisha - S24CSEU1644
+                             Nandini - S24CSEU0195
+                             Aymen -   S24CSEU0127
+**Team ID:** [ pe-b37-04]
 
 ## Problem
 Students often reuse generic resumes for different job applications and receive little role-specific feedback. This prototype compares resume text with a job description and produces a rubric-based score, gaps, strengths and next steps.
